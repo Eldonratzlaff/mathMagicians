@@ -20,7 +20,6 @@
   },
   
   "eslintConfig": {
-    "lint": "eslint --debug 'src/**/*.{js,jsx,ts,tsx}'",
     "extends": [
       "react-app",
       "react-app/jest"
