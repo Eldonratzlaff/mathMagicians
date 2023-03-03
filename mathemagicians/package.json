@@ -18,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  
   "eslintConfig": {
+    "lint": "eslint --debug 'src/**/*.{js,jsx,ts,tsx}'",
     "extends": [
       "react-app",
       "react-app/jest"
