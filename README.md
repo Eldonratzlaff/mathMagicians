@@ -103,9 +103,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with: ```
-  npm install
-```
+Install this project with:  npm install
 
 
 ### Usage
