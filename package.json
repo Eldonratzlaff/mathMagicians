@@ -1,0 +1,24 @@
+{
+  "name": "mathmagicians",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eldonratzlaff/mathMagicians.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eldonratzlaff/mathMagicians/issues"
+  },
+  "homepage": "https://github.com/Eldonratzlaff/mathMagicians#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
