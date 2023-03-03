@@ -75,9 +75,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://github.com/Eldonratzlaff/mathMagicians)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,12 +103,14 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+Install this project with: ```
+  npm install
+```
 
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command:  git checkout dev
 
 
 
@@ -141,9 +143,9 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Deploy**
+- [ ] **Execute mathematical operations**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,9 +173,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
