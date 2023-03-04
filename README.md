@@ -39,7 +39,6 @@
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: make simple calculations, read a random math-related quote. By building this application,I will learn how to use React.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -86,7 +85,6 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Clone the repository by clicking on the 'Code' button and copy the link
-
 To get a local copy up and running
 
 ### Prerequisites
@@ -100,21 +98,32 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
+```sh
+  mkdir my-folder
+  cd my-folder
+  git clone git@github.com:Eldonratzlaff/mathMagicians.git
+```
 ### Install
 
-Install this project with:  npm install
+Install this project with:  
+
+```
+  npm install
+```
 
 
 ### Usage
 
-To run the project, execute the following command:  git checkout dev
+Change the main branch to the right one, execute the following command:
 
+```sh
+  git checkout dev
+```
 
 
 ### Deployment
 
-You can deploy this project using:
+Deploy when ready
 
 
 
