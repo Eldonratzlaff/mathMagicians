@@ -1,5 +1,5 @@
 import './App.css';
-import calculator from './components/components';
+import calculator from './components/calculator';
 
 const App = () => (
   <div className="App">
