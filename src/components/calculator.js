@@ -13,7 +13,7 @@ function Calculator() {
   return (
     <section className="calculator-conteiner">
       <div className="calculation-result">{result.next || result.total || '0'}</div>
-      <div
+      <button
         className="operationAC"
         type="button"
         onClick={() => {
@@ -21,8 +21,8 @@ function Calculator() {
         }}
       >
         AC
-      </div>
-      <div
+      </button>
+      <button
         className="operation-change"
         type="button"
         onClick={() => {
@@ -30,8 +30,8 @@ function Calculator() {
         }}
       >
         +/-
-      </div>
-      <div
+      </button>
+      <button
         className="operation-percent"
         type="button"
         onClick={() => {
@@ -39,8 +39,8 @@ function Calculator() {
         }}
       >
         %
-      </div>
-      <div
+      </button>
+      <button
         className="operation-divition"
         type="button"
         onClick={() => {
@@ -48,8 +48,8 @@ function Calculator() {
         }}
       >
         ÷
-      </div>
-      <div
+      </button>
+      <button
         className="operation-multiplication"
         type="button"
         onClick={() => {
@@ -57,8 +57,8 @@ function Calculator() {
         }}
       >
         x
-      </div>
-      <div
+      </button>
+      <button
         className="operation-minus"
         type="button"
         onClick={() => {
@@ -66,8 +66,8 @@ function Calculator() {
         }}
       >
         -
-      </div>
-      <div
+      </button>
+      <button
         className="operation-add"
         type="button"
         onClick={() => {
@@ -75,8 +75,8 @@ function Calculator() {
         }}
       >
         +
-      </div>
-      <div
+      </button>
+      <button
         className="operation-iqual"
         type="button"
         onClick={() => {
@@ -84,8 +84,8 @@ function Calculator() {
         }}
       >
         =
-      </div>
-      <div
+      </button>
+      <button
         className="number9"
         type="button"
         onClick={() => {
@@ -93,8 +93,8 @@ function Calculator() {
         }}
       >
         9
-      </div>
-      <div
+      </button>
+      <button
         className="number8"
         type="button"
         onClick={() => {
@@ -102,8 +102,8 @@ function Calculator() {
         }}
       >
         8
-      </div>
-      <div
+      </button>
+      <button
         className="number7"
         type="button"
         onClick={() => {
@@ -111,8 +111,8 @@ function Calculator() {
         }}
       >
         7
-      </div>
-      <div
+      </button>
+      <button
         className="number6"
         type="button"
         onClick={() => {
@@ -120,8 +120,8 @@ function Calculator() {
         }}
       >
         6
-      </div>
-      <div
+      </button>
+      <button
         className="number5"
         type="button"
         onClick={() => {
@@ -129,8 +129,8 @@ function Calculator() {
         }}
       >
         5
-      </div>
-      <div
+      </button>
+      <button
         className="number4"
         type="button"
         onClick={() => {
@@ -138,8 +138,8 @@ function Calculator() {
         }}
       >
         4
-      </div>
-      <div
+      </button>
+      <button
         className="number3"
         type="button"
         onClick={() => {
@@ -147,8 +147,8 @@ function Calculator() {
         }}
       >
         3
-      </div>
-      <div
+      </button>
+      <button
         className="number2"
         type="button"
         onClick={() => {
@@ -156,8 +156,8 @@ function Calculator() {
         }}
       >
         2
-      </div>
-      <div
+      </button>
+      <button
         className="number1"
         type="button"
         onClick={() => {
@@ -165,8 +165,8 @@ function Calculator() {
         }}
       >
         1
-      </div>
-      <div
+      </button>
+      <button
         className="number0"
         type="button"
         onClick={() => {
@@ -174,8 +174,8 @@ function Calculator() {
         }}
       >
         0
-      </div>
-      <div
+      </button>
+      <button
         className="number-dot"
         type="button"
         onClick={() => {
@@ -183,7 +183,7 @@ function Calculator() {
         }}
       >
         .
-      </div>
+      </button>
     </section>
   );
 }
