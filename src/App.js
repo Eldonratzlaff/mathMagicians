@@ -1,10 +1,10 @@
 import './App.css';
-import calculator from './components/calculator';
+import Calculator from './components/calculator';
 
 const App = () => (
   <div className="App">
     <header className="App-header">
-      {calculator()}
+      {Calculator()}
 
     </header>
   </div>
